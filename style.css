@@ -72,10 +72,6 @@ span {
   margin-bottom: 20px;
 
   transition: transform 0.3s ease;
-  -webkit-transition: transform 0.3s ease;
-  -moz-transition: transform 0.3s ease;
-  -ms-transition: transform 0.3s ease;
-  -o-transition: transform 0.3s ease;
 }
 
 li {
@@ -85,8 +81,4 @@ li {
 
 span:hover {
   transform: translateY(-5px);
-  -webkit-transform: translateY(-5px);
-  -moz-transform: translateY(-5px);
-  -ms-transform: translateY(-5px);
-  -o-transform: translateY(-5px);
 }
