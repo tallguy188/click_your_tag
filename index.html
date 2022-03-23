@@ -5,20 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Click your tag</title>
+    <title>Enter your keyword</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
-
-    
 </head>
 <body>
-    <form autocomplete ="off">
-        <div class= "tag">
-            <input type = "text" id="word"  placeholder = "Enter  your  keyword"  size ="20">
+    <form>
+        <div class= "container" >
+            <input type = "text" class="word"  placeholder = "Enter  your  keyword"  size ="20" autocomplete="off">
+            <ul class= "tagList">
+            </ul>
         </div>
     </form>
-
     <script src = "app.js"></script>
 </body>
 </html>
